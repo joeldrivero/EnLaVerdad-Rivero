@@ -13,11 +13,11 @@ nav {
 }
 
 nav ul{
-  list-style-type: none;
   display: flex;
-  flex-direction:row;
   justify-content: center;
-  overflow:hidden;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
   background-color:#393d42;
 }
 
