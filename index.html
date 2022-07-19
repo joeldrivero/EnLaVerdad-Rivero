@@ -1,117 +1,121 @@
 <!DOCTYPE html>
 
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>En la Verdad</title>
-  </head>
-  <body class="layout">
-    <header class="encabezado">
-      <div class="imagen-navbar">
-        <img src="./imagenes/Logo.png" alt="Logo de la banda" />
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-        <div class="container-fluid ">
-          <div class="collapse navbar-collapse justify-content-center text-black" id="navbarNav">
-            <ul class="navbar-nav bg-light"  id="navbar">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./paginas/conocenos.html">Conocenos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./paginas/eventos.html">Eventos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./paginas/multimedia.html">Multimedia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-</header> 
-    <main class="principal">
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./imagenes/FotoCarrusel1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./imagenes/FotoCarrusel2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./imagenes/FotoCarrusel3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>En la Verdad</title>
+</head>
+
+<body class="layout">
+  <header class="encabezado">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./imagenes/Logo.png" alt="..." height="250">
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      
-      <div class="row justify-content-center">
-        <div class="col-sm-5">
-          <div class="card bg-dark">
-            <div class="card-body">
-              <div class="listaReproduccion">
-                <h2>Lista de reproduccion</h2>
-                <iframe
-                  style="border-radius: 12px"
-                  src="https://open.spotify.com/embed/artist/7zrt5nT90clpSb9X8XtUqd?utm_source=generator"
-                  width="100%"
-                  height="400"
-                  frameborder="0"
-                  allowfullscreen=""
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                ></iframe>
-              </div>
-            </div>
-          </div>
+        <div class="collapse navbar-collapse justify-content-center text-black" id="navbarNav">
+          <ul class="navbar-nav bg-light" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/conocenos.html">Conocenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/multimedia.html">Multimedia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-sm-5">
-          <div class="card bg-dark">
-            <div class="card-body">
-              <div class="ultimoLanzamiento">
-                <h2>¡Ultimo Lanzamiento!</h2>
-                <iframe
-                style="border-radius: 12px"
-                  src="https://www.youtube.com/embed/JC3wwET1BsM"
-                  width="100%"
-                  height="400"
-                  frameborder="0"
-                  allowfullscreen=""
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                ></iframe>
-              </div>
+      </div>
+    </nav>
+  </header>
+  <main class="principal">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes/FotoCarrusel1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/FotoCarrusel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/FotoCarrusel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-sm-5">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="listaReproduccion">
+              <h2>Lista de reproduccion</h2>
+              <iframe style="border-radius: 12px"
+                src="https://open.spotify.com/embed/artist/7zrt5nT90clpSb9X8XtUqd?utm_source=generator" width="100%"
+                height="400" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-sm-5">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="ultimoLanzamiento">
+              <h2>¡Ultimo Lanzamiento!</h2>
+              <iframe style="border-radius: 12px" src="https://www.youtube.com/embed/JC3wwET1BsM" width="100%"
+                height="400" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+
   <footer class="text-center text-white bg-dark">
-    <div class="text-left text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">Encontranos tambien en nuestras redes</div>
-  <div class="container pt-1">
-    <section class="mb-4">
-      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"  data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
-      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"  data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
-      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"  data-mdb-ripple-color="dark"><i class="bi bi-youtube"></i></a>
-      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"  data-mdb-ripple-color="dark"><i class="bi bi-spotify"></i></a>
-    </section>
-   </div>
-</footer>
-  </body>
-  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <div class="text-left text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">Encontranos tambien en nuestras
+      redes</div>
+    <div class="container pt-1">
+      <section class="mb-4">
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="bi bi-youtube"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="bi bi-spotify"></i></a>
+      </section>
+    </div>
+  </footer>
+
+</body>
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </html>

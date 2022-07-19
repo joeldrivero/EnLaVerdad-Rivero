@@ -1,15 +1,48 @@
+ 
  body {
   background-color: #171718 !important;
   max-width: 100%;
-  animation-duration: 2 s;
+  animation-duration: 4s;
   animation-name: aparecer;
   animation-iteration-count:initial;
   max-width: 100%;
 }
 
+@keyframes aparecer{
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+
+  100%{
+    opacity: 1;
+  }
+
+}
+
+@media only screen and (max-width:991px ) {
+
+  .navbar-brand img{
+      display: none;
+  }
+  
+}
+
 /* NAV BAR */
+
+
+.encabezado{
+  display: flex;
+  justify-content: center;
+
+}
+
 #navbar{
   border-radius: 20px;
+
 }
 
 .nav-item{
@@ -23,7 +56,9 @@ border-radius: 30px;
 }
 
 #carousel{
+
   margin: 30px 10px;
+
 }
 
 .card h2{
@@ -32,10 +67,15 @@ border-radius: 30px;
 
 }
 
+
 #cardEventos{
-  display: flex;
+  display: flex;  
+  max-width: 60%;
   align-items: center;
   margin: 20px 20px;
+  transition: all 2s;
+
+  box-shadow: 10px 5px 5px black;
 }
 
 #cardEventos h5{
@@ -46,7 +86,7 @@ border-radius: 30px;
 }
 
 #cardEventos img{
-  max-width: 80%;
+  max-width: 60%;
   padding: 10px;
   border-radius: 30px; 
 }
@@ -117,16 +157,7 @@ justify-content: center;
   margin: 12px 12px;
 }
 
-@keyframes aparecer{
-  0%{
-    opacity: 0;
-  }
 
-  100%{
-    opacity: 1;
-  }
-
-}
 
 
 h1 {
