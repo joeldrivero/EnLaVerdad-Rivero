@@ -47,6 +47,14 @@
 
 .nav-item{
   padding: 2px 20px;
+ 
+}
+
+.nav-item a:hover{
+  transition:transform .5s;
+  transform: scale(1.2);
+  text-decoration: solid;
+
 }
 
 #cardConocenos img{
@@ -57,9 +65,10 @@ border-radius: 30px;
 
 #carousel{
 
-  margin: 30px 10px;
+  margin: 30px 20px;
 
 }
+
 
 .card h2{
   color: white;
@@ -67,15 +76,17 @@ border-radius: 30px;
 
 }
 
-
 #cardEventos{
   display: flex;  
   max-width: 60%;
   align-items: center;
   margin: 20px 20px;
   transition: all 2s;
+  box-shadow: 4px 4px 4px 4px gainsboro;
+}
 
-  box-shadow: 10px 5px 5px black;
+#cardEventos:hover{
+transform: scale(1.05);
 }
 
 #cardEventos h5{
