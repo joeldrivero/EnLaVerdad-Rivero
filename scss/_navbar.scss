@@ -1,0 +1,21 @@
+
+ .encabezado {
+   display: flex;
+   justify-content: center;
+
+ }
+
+ #navbar {
+   border-radius: 20px;
+
+   .nav-item {
+    padding: 2px 20px;
+
+    :hover {
+      transition: transform .5s;
+      transform: scale(1.2);
+      text-decoration: solid;
+   
+    }
+  }
+ }

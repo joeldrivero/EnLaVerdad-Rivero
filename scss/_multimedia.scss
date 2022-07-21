@@ -1,0 +1,17 @@
+#multimedia {
+  padding: 20px 20px;
+  .container-sm {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+
+    .card {
+      display: flex;
+      max-width: 60%;
+      justify-content: center;
+    }
+  }
+  h2 {
+    color: $color-texto;
+  }
+}

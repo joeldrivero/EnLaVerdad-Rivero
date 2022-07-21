@@ -1,0 +1,25 @@
+
+ #cardEventos {
+    display: flex;
+    max-width: 60%;
+    align-items: center;
+    margin: 20px 20px;
+    transition: all 2s;
+    box-shadow: 4px 4px 4px 4px gainsboro;
+  :hover {
+        transform: scale(1.05);
+      }
+
+ h5 {
+        font-size: 30px;
+        vertical-align: middle;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        align-items: center;
+
+      }
+      img {
+        max-width: 60%;
+        padding: 10px;
+        border-radius: 30px;
+      }
+  }

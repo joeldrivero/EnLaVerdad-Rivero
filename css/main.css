@@ -1,0 +1,117 @@
+body {
+  background-color: black !important;
+  max-width: 100%;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+  max-width: 100%; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+
+@media only screen and (max-width: 991px) {
+  .navbar-brand img {
+    display: none; } }
+
+.contenidoPrincipal {
+  background-color: black; }
+
+.encabezado {
+  display: flex;
+  justify-content: center; }
+
+#navbar {
+  border-radius: 20px; }
+  #navbar .nav-item {
+    padding: 2px 20px; }
+    #navbar .nav-item :hover {
+      transition: transform .5s;
+      transform: scale(1.2);
+      text-decoration: solid; }
+
+footer {
+  margin-top: 20px; }
+
+#cardEventos {
+  display: flex;
+  max-width: 60%;
+  align-items: center;
+  margin: 20px 20px;
+  transition: all 2s;
+  box-shadow: 4px 4px 4px 4px gainsboro; }
+  #cardEventos :hover {
+    transform: scale(1.05); }
+  #cardEventos h5 {
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center; }
+  #cardEventos img {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 30px; }
+
+#multimedia {
+  padding: 20px 20px; }
+  #multimedia .container-sm {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px; }
+    #multimedia .container-sm .card {
+      display: flex;
+      max-width: 60%;
+      justify-content: center; }
+  #multimedia h2 {
+    color: white; }
+
+#conocenos {
+  display: flex;
+  margin: 30px 30px; }
+  #conocenos #cardConocenos {
+    margin-top: 20%;
+    margin-left: 30%;
+    display: flex;
+    flex-wrap: nowrap; }
+  #conocenos h1 {
+    color: white; }
+  #conocenos .card-title {
+    color: black; }
+
+#cardConocenos .card {
+  margin-top: 20%;
+  margin-left: 30%;
+  display: flex;
+  flex-wrap: nowrap; }
+
+#cardConocenos img {
+  max-width: 80%;
+  padding: 20px 20px;
+  border-radius: 30px; }
+
+#contacto {
+  margin-top: 12px; }
+  #contacto h1 {
+    margin-left: 30%;
+    justify-content: center;
+    color: white; }
+  #contacto .card {
+    margin-top: 20%;
+    margin-left: 30%;
+    display: flex;
+    flex-wrap: nowrap; }
+
+.form-box {
+  margin-top: 20px;
+  border-radius: 12px; }
+  .form-box .form-group {
+    justify-items: center;
+    padding: 12px 12px; }
+  .form-box .btn {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 12px; }
