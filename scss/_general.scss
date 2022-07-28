@@ -1,5 +1,5 @@
 body {
-    background-color: $color-principal !important;
+    background-color: map-get($map: $colores, $key: "color-principal") !important;
     max-width: 100%;
     animation-duration: 4s;
     animation-name: aparecer;

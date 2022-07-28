@@ -1,3 +1,4 @@
+@import 'mixin';
 
  .encabezado {
    display: flex;
@@ -6,7 +7,7 @@
  }
 
  #navbar {
-   border-radius: 20px;
+@include border(20px);
 
    .nav-item {
     padding: 2px 20px;
@@ -15,7 +16,7 @@
       transition: transform .5s;
       transform: scale(1.2);
       text-decoration: solid;
-   
+      
     }
   }
  }

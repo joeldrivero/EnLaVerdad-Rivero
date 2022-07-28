@@ -1,5 +1,5 @@
 body {
-  background-color: black !important;
+  background-color: #171718 !important;
   max-width: 100%;
   animation-duration: 4s;
   animation-name: aparecer;
@@ -19,7 +19,7 @@ body {
     display: none; } }
 
 .contenidoPrincipal {
-  background-color: black; }
+  background-color: #171718; }
 
 .encabezado {
   display: flex;
@@ -72,21 +72,10 @@ footer {
 #conocenos {
   display: flex;
   margin: 30px 30px; }
-  #conocenos #cardConocenos {
-    margin-top: 20%;
-    margin-left: 30%;
-    display: flex;
-    flex-wrap: nowrap; }
   #conocenos h1 {
     color: white; }
   #conocenos .card-title {
     color: black; }
-
-#cardConocenos .card {
-  margin-top: 20%;
-  margin-left: 30%;
-  display: flex;
-  flex-wrap: nowrap; }
 
 #cardConocenos img {
   max-width: 80%;
@@ -99,11 +88,6 @@ footer {
     margin-left: 30%;
     justify-content: center;
     color: white; }
-  #contacto .card {
-    margin-top: 20%;
-    margin-left: 30%;
-    display: flex;
-    flex-wrap: nowrap; }
 
 .form-box {
   margin-top: 20px;
@@ -115,3 +99,9 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 12px 12px; }
+
+#conocenos #cardConocenos, #cardConocenos .card, #contacto .card {
+  margin-top: 20%;
+  margin-left: 30%;
+  display: flex;
+  flex-wrap: nowrap; }
