@@ -80,6 +80,8 @@ footer {
       display: flex;
       max-width: 60%;
       justify-content: center; }
+      #multimedia .container-sm .card iframe {
+        max-width: 100%; }
   #multimedia h2 {
     color: white; }
 
@@ -125,7 +127,7 @@ footer {
 #contacto {
   margin-top: 12px; }
   #contacto h1 {
-    margin-left: 30%;
+    display: flex;
     justify-content: center;
     color: white; }
 
@@ -135,10 +137,11 @@ footer {
   .form-box .form-group {
     justify-items: center;
     padding: 12px 12px; }
-  .form-box .btn {
-    display: flex;
-    flex-direction: column;
-    margin: 12px 12px; }
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 12px; }
 
 #contacto .card {
   margin-top: 20%;
