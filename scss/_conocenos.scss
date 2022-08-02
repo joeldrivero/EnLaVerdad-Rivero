@@ -1,27 +1,25 @@
+#conocenos {
+  display: flex;
+  margin: 30px 30px;
 
- #conocenos {
-    display: flex;
-    margin: 30px 30px;
-
-    #cardConocenos{
-@extend %card;
-        
-      }
-
-    h1 {
-        color: white;
-      }
-      .card-title {
-        color: black;
-      }
+  #cardConocenos {
+    @extend %card;
   }
+  h1 {
+    color: white;
+  }
+  .card-title {
+    color: black;
+  }
+}
 
-  #cardConocenos{
-    .card {
-      @extend %card;
-    }
-   img {
+#cardConocenos {
+  .card {
+    @extend %card;
+  }
+  img {
     max-width: 80%;
     padding: 20px 20px;
     border-radius: 30px;
-   }}
+  }
+}

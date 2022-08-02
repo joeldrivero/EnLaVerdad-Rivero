@@ -14,12 +14,13 @@ body {
   100% {
     opacity: 1; } }
 
-@media only screen and (max-width: 991px) {
-  .navbar-brand img {
-    display: none; } }
-
 .contenidoPrincipal {
   background-color: #171718; }
+
+.carousel-item {
+  margin-bottom: 20px; }
+  .carousel-item img {
+    max-width: 75%; }
 
 .encabezado {
   display: flex;
@@ -30,7 +31,7 @@ body {
   #navbar .nav-item {
     padding: 2px 20px; }
     #navbar .nav-item :hover {
-      transition: transform .5s;
+      transition: transform 0.5s;
       transform: scale(1.2);
       text-decoration: solid; }
 

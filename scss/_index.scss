@@ -1,3 +1,10 @@
-.contenidoPrincipal{
-    background-color: map-get($map: $colores, $key: "color-principal");
+.contenidoPrincipal {
+  background-color: map-get($map: $colores, $key: "color-principal");
+}
+
+.carousel-item {
+  margin-bottom: 20px;
+  img {
+    max-width: 75%;
+  }
 }

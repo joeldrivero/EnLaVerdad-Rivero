@@ -1,32 +1,21 @@
 body {
-    background-color: map-get($map: $colores, $key: "color-principal") !important;
-    max-width: 100%;
-    animation-duration: 4s;
-    animation-name: aparecer;
-    animation-iteration-count: initial;
-    max-width: 100%;
+  background-color: map-get($map: $colores, $key: "color-principal") !important;
+  max-width: 100%;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+  max-width: 100%;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
   }
- 
-  @keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
- 
-    50% {
-      opacity: 0.5;
-    }
- 
-    100% {
-      opacity: 1;
-    }
- 
+
+  50% {
+    opacity: 0.5;
   }
- 
-  @media only screen and (max-width:991px) {
- 
-    .navbar-brand img {
-      display: none;
-    }
- 
+
+  100% {
+    opacity: 1;
   }
- 
+}
