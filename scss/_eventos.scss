@@ -6,8 +6,12 @@
     transition: all 2s;
     box-shadow: 4px 4px 4px 4px gainsboro;
   :hover {
-        transform: scale(1.05);
-      }
+        transform: scale(1.05); 
+          transition: transform 0.5s;
+          text-decoration: solid;
+        }
+        
+      
 
  h5 {
         font-size: 30px;
@@ -21,4 +25,7 @@
         padding: 10px;
         border-radius: 30px;
       }
-  }
+    
+  
+    }
+    

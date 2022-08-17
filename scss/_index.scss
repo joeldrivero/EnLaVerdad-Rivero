@@ -3,6 +3,7 @@
 }
 
 .principal {
+
   #carousel {
     background-color: black;
     margin-bottom: 20px;
@@ -12,14 +13,14 @@
       img {
         margin-top: 20px;
         margin-bottom: 20px;
-        border: solid white;
+/*         border:  solid white; */
         max-width: 80%;
       }
     }
   }
 
   .card {
-    box-shadow: 12px 12px 12px 12px black;
+    box-shadow: 12px 12px 12px 12px white;
     margin-bottom: 30px;
 
     .listaReproduccion {

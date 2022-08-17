@@ -24,11 +24,11 @@ body {
   .principal #carousel .carousel-item img {
     margin-top: 20px;
     margin-bottom: 20px;
-    border: solid white;
+    /*         border:  solid white; */
     max-width: 80%; }
 
 .principal .card {
-  box-shadow: 12px 12px 12px 12px black;
+  box-shadow: 12px 12px 12px 12px white;
   margin-bottom: 30px; }
   .principal .card .listaReproduccion h2 {
     color: white; }
@@ -50,8 +50,8 @@ body {
 
 @media screen and (max-width: 320px) {
   .navbar-brand img {
-    height: 150px; 
-  width: 200px;} }
+    height: 150px;
+    width: 200px; } }
 
 footer {
   margin-top: 20px; }
@@ -64,7 +64,9 @@ footer {
   transition: all 2s;
   box-shadow: 4px 4px 4px 4px gainsboro; }
   #cardEventos :hover {
-    transform: scale(1.05); }
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    text-decoration: solid; }
   #cardEventos h5 {
     font-size: 30px;
     vertical-align: middle;
@@ -89,6 +91,8 @@ footer {
         max-width: 100%; }
   #multimedia h2 {
     color: white; }
+  #multimedia .container-md {
+    padding: 20px 20px; }
 
 .conocenos {
   display: flex;
