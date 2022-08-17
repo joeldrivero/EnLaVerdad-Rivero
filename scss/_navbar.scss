@@ -5,6 +5,12 @@
   justify-content: center;
 }
 
+.container-fluid {
+  .navbar-toggler {
+    border-color: white;
+  }
+}
+
 #navbar {
   @include border(20px);
 
@@ -18,8 +24,7 @@
     }
   }
 }
-@media screen and (max-width:480px){
-
+@media screen and (max-width: 480px) {
   .nav-item {
     display: flex;
     justify-content: center;
@@ -32,7 +37,7 @@
     }
   }
 
-  .navbar-brand img{
+  .navbar-brand img {
     height: 150px;
     width: 200px;
   }

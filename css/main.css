@@ -45,6 +45,9 @@ body {
   display: flex;
   justify-content: center; }
 
+.container-fluid .navbar-toggler {
+  border-color: white; }
+
 #navbar {
   border-radius: 20px; }
   #navbar .nav-item {
@@ -184,7 +187,11 @@ footer {
     display: flex;
     justify-content: center;
     padding-right: 100px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+    #contacto .row .col-md-4 .card-header {
+      font-size: 12px; }
+    #contacto .row .col-md-4 .list-group li {
+      font-size: 12px; } }
 
 #contacto .card {
   margin-top: 20%;
