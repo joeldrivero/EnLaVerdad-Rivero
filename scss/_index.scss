@@ -13,14 +13,13 @@
       img {
         margin-top: 20px;
         margin-bottom: 20px;
-/*         border:  solid white; */
         max-width: 80%;
       }
     }
   }
 
   .card {
-    box-shadow: 12px 12px 12px 12px white;
+    box-shadow: 12px 12px 12px 12px black;
     margin-bottom: 30px;
 
     .listaReproduccion {
@@ -35,4 +34,20 @@
       }
     }
   }
+}
+
+@media screen and (max-width:480px){
+
+  .principal{
+    #carousel{
+      background-color: map-get($map: $colores, $key:"color-principal" );
+      
+    .carousel-item {
+      img {
+        border-radius: 10px;
+        max-width: 100%;
+      }
+    }
+  }
+}
 }

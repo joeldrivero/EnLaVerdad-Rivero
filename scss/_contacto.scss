@@ -27,3 +27,18 @@
   flex-direction: column;
   margin: 12px 12px;
 }
+
+@media screen and (max-width:480px) {
+  #contacto{
+    .row{
+      .col-md-4{
+        display: flex;
+        justify-content: center; 
+        padding-right: 100px;
+        padding-bottom: 50px;
+      }
+
+    }
+  }
+  
+}
